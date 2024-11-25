@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Server]()
+- Solution URL: [Solution](https://github.com/Tori-Bemide/four-card-feature-section)
+- Live Site URL: [Live Server](https://tori-bemide.github.io/four-card-feature-section/)
 
 ## My process
 
@@ -46,4 +46,4 @@ Looking to improve on CSS Flexbox and CSS Grid
 ## Author
 
 - Frontend Mentor - [Timony](https://www.frontendmentor.io/profile/Tori-Bemide)
-- Twitter - [Tori Bemide](https://x.com/home)
+- Twitter - [Tori Bemide](https://x.com/TBemide)
