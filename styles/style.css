@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+  ============================
+  Fonts
+  ============================
+   */
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf) format(truetype);
+}
+/* 
+  ============================
+ Variables
+  ============================
+   */
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --black: #000;
+  --white: #fff;
+  --very-light-gray: hsl(0, 0%, 98%);
+  --border-radius: 0.5rem;
+  --font-family: "Poppins";
+}
+
+body {
+  background: var(--very-light-gray);
+  font-family: var(--font-family);
+  display: grid;
+  justify-content: center;
+}
+p {
+  font-size: 15px;
+}
+.main {
+  margin: 5rem 1.75rem;
+  max-width: 1170px;
+}
+
+header {
+  text-align: center;
+  color: var(--grayish-blue);
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+header h2 {
+  font-weight: 200;
+  line-height: 1.35;
+}
+.bold {
+  font-weight: bold;
+  color: var(--black);
+}
+
+header p {
+  margin: 1rem 0.5rem;
+}
+
+.cards-center {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1.5rem;
+}
+
+.card {
+  background: var(--white);
+  padding: 1.5rem 1.6rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border: transparent;
+  border-radius: var(--border-radius);
+  border-top: 5px solid var(--cyan);
+}
+
+.cards-column {
+  display: grid;
+  row-gap: 1.5rem;
+}
+.card-2 {
+  border-top-color: var(--red);
+}
+.card-3 {
+  border-top-color: var(--orange);
+}
+.card-4 {
+  border-top-color: var(--blue);
+}
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.card p {
+  color: var(--grayish-blue);
+  line-height: 1.65;
+  font-size: 14px;
+}
+
+.icon-container {
+  margin-top: 1.75rem;
+  text-align: right;
+}
+
+@media screen and (min-width: 992px) {
+  p {
+    font-size: 1rem;
+  }
+  .main {
+    margin: 3rem 0;
+  }
+  .cards-center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 2rem;
+    margin: 4rem 0.5rem 3rem 0.5rem;
+  }
+}
+
+.attribution {
+        font-size: 15px;
+        text-align: center;
+      }
+      .attribution a {
+        color: var(--red);
+      }
